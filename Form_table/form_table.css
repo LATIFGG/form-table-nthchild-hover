@@ -73,6 +73,7 @@ legend:hover {
   text-align: left;
   display: inline-block;
   /*********************************
+  INLINE ELEMENTS SHOULD HAVE CONVERTED TO INLINE BLOCK ELEMENTS !!!!!
      div icine almadan label ve inputlari hizalamak icin display inline block kullan 
     ***** inline elementlere width veremedigimizden hizalamak cok zor oluyor.
     bu nedenle display inline block yapip genislik verince tüm sorun haloluyor**************************/
