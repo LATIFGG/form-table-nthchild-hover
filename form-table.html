@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Form_table/form_table.css" />
+    <!-- Fontawesome cdn linki -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Form_Table</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="">Home <i class="fa-regular fa-face-grin-stars"></i></a>
+
+      <a href="">About <i class="fa-regular fa-circle-play"></i></a>
+
+      <a href=""><i class="fa-solid fa-magnifying-glass"></i> Who </a>
+
+      <a href="">Contact <i class="fa-solid fa-square-share-nodes"></i></a>
+
+      <a href="">Sss <i class="fa-solid fa-bullhorn"></i></a>
+    </nav>
+    <main>
+      <aside>
+        <ul>
+          <li><a href="#home"><i class="fa-solid fa-arrows-to-dot"></i> Home</a></li>
+          <li><a href="#news"><i class="fa-solid fa-arrows-to-dot"></i> News</a></li>
+          <li><a href="#contact"><i class="fa-solid fa-arrows-to-dot"></i> Contact</a></li>
+          <li><a href="#about"><i class="fa-solid fa-arrows-to-dot"></i> About</a></li>
+        </ul>
+      </aside>
+      <section>
+        <table class="table-container">
+          <caption>
+            Araba Markalari
+          </caption>
+
+          <tr>
+            <th>bmw</th>
+            <th>bmw</th>
+            <th>bmw</th>
+            <th>bmw</th>
+          </tr>
+
+          <tr>
+            <td>volvo</td>
+            <td>volvo</td>
+            <td>volvo</td>
+            <td>volvo</td>
+          </tr>
+          <tr>
+            <td>audi</td>
+            <td>audi</td>
+            <td>audi</td>
+            <td>audi</td>
+          </tr>
+          <tr>
+            <td>mercedes</td>
+            <td>mercedes</td>
+            <td>mercedes</td>
+            <td>mercedes</td>
+          </tr>
+          <tr>
+            <td>audi</td>
+            <td>audi</td>
+            <td>audi</td>
+            <td>audi</td>
+          </tr>
+          <tr>
+            <td>mercedes</td>
+            <td>mercedes</td>
+            <td>mercedes</td>
+            <td>mercedes</td>
+          </tr>
+          <tr>
+            <td>audi</td>
+            <td>audi</td>
+            <td>audi</td>
+            <td>audi</td>
+          </tr>
+          <tr>
+            <td>mercedes</td>
+            <td>mercedes</td>
+            <td>mercedes</td>
+            <td>mercedes</td>
+          </tr>
+        </table>
+        <fieldset>
+          <legend>Araba Markalari</legend>
+          <form action="">
+            <label class="name" for="">Name</label>
+            <input class="box" type="text" /><br />
+            <label class="name" for="">Surname</label>
+            <input class="box" type="text" /><br />
+            <label class="name" for="">Email</label>
+            <input class="box" type="email" /><br />
+            <hr />
+            <label for=""
+              >What do you have? (input type=checkbox_differentName)</label
+            ><br />
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+            <label for="vehicle1"> I have a bike</label><br />
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+            <label for="vehicle2"> I have a car</label><br />
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+            <label for="vehicle3"> I have a boat</label>
+            <hr />
+            <label for="">
+              Which car do you like the best? ((input
+              type=radio_samename)</label
+            ><br />
+            <input type="radio" id="html" name="fav_language" value="HTML" />
+            <label for="html">AUDI</label><br />
+            <input type="radio" id="css" name="fav_language" value="CSS" />
+            <label for="css">BMW</label><br />
+            <input
+              type="radio"
+              id="javascript"
+              name="fav_language"
+              value="JavaScript"
+            />
+            <label for="javascript">Mercedes</label>
+            <hr />
+            <label for="cars">Choose your car:</label>(select_option (not
+            input))
+            <select name="cars" id="cars">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+            <hr />
+            <!-- Input type color -->
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000" />
+            <hr />
+            <!-- Input Type Date -->
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" />
+            <hr />
+            <!-- Input type File -->
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile" />
+            <hr />
+            <!-- Input type range -->
+            <label for="vol">Volume (between 0 and 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50" />
+            <hr />
+            <input type="submit" value="Send">
+          </form>
+        </fieldset>
+      </section>
+    </main>
+  </body>
+</html>

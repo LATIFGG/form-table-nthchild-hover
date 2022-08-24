@@ -1,0 +1,111 @@
+main {
+  display: flex;
+  width: 90%;
+}
+.navbar {
+  width: 100%;
+  height: 30px;
+  background-color: blueviolet;
+  text-align: center;
+  padding: 10px;
+}
+nav > a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+.fa-face-grin-stars {
+  color: crimson;
+}
+.table-container {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid red;
+  text-align: left;
+  padding: 5px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:hover {
+  background-color: blueviolet;
+  color: white;
+  font-size: x-large;
+}
+caption {
+  border: 1px solid red;
+  margin-top: 20px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+nav > a:hover {
+  color: red;
+  background-color: blue;
+  padding: 10px;
+  font-size: x-large;
+}
+fieldset {
+  background-color: #dddddd;
+  color: blue;
+  border: 2px dashed red;
+  width: 100%;
+  margin: auto;
+}
+legend {
+  color: red;
+  font-size: xx-large;
+}
+legend:hover {
+  color: blueviolet;
+  font-style: italic;
+}
+.name {
+  width: 40px;
+  margin-right: 20px;
+  text-align: left;
+  display: inline-block;
+  /*********************************
+     div icine almadan label ve inputlari hizalamak icin display inline block kullan 
+    ***** inline elementlere width veremedigimizden hizalamak cok zor oluyor.
+    bu nedenle display inline block yapip genislik verince tüm sorun haloluyor**************************/
+}
+.box:hover {
+  background-color: red;
+}
+.box:focus {
+  background-color: blue;
+}
+aside {
+  width: 40%;
+  position: left;
+  font-size: xx-large;
+}
+ul li {
+  list-style: none;
+}
+section {
+  width: 50%;
+}
+.fa-arrows-to-dot {
+  color: blueviolet;
+  font-size: small;
+}
+ul li a:hover {
+  color: aqua;
+  font-size: 50px;
+  font-style: italic;
+  padding: 10px;
+}
+input[type="submit"] {
+  background-color: red;
+  color: white;
+  font-size: large;
+}
